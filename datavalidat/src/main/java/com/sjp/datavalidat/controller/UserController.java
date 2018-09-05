@@ -14,7 +14,7 @@ public class UserController {
     @GetMapping("/user")
     public String valida(@Valid User user) {
         String s = JSON.toJSONString(user);
-        System.out.println("test success");
+        System.out.println("test success123");
         return s;
     }
 }
